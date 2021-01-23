@@ -1,0 +1,36 @@
+.amount_title {
+    text-align: center;
+    font-size: 2em;
+    font-weight: bold;
+    color: white;
+    letter-spacing: 5px;
+    margin-top: 3%;
+}
+
+.num {
+    background-color: tomato;
+}
+
+ @media only screen and (max-width: 767px) {
+    .amount_title {
+        font-size: 1.7em;
+    }
+} 
+
+
+@media only screen and (max-width: 575px) {
+   
+}
+
+@media only screen and (max-width: 450px) {
+     .amount_title {
+         font-size: 1.3em;
+     }
+}
+
+@media only screen and (max-width: 372px) {
+    .amount_title {
+        font-size: 18px;
+        margin-top: 10%;
+    }
+  }
